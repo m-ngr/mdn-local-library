@@ -1,4 +1,4 @@
-# [MDN Local Library](https://mdn-local-library-production.up.railway.app/c)
+# [MDN Local Library](https://mdn-local-library-production.up.railway.app/)
 
 The [MDN Local Library](https://mdn-local-library-production.up.railway.app/) is written in Node/Express. This project is part of [The Odin Project](https://github.com/m-ngr/The-Odin-Project)
 
