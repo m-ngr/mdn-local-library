@@ -1,30 +1,34 @@
-# [MDN Local Library](https://mdn-local-library-production.up.railway.app/)
+# MDN Local Library
 
-The [MDN Local Library](https://mdn-local-library-production.up.railway.app/) is written in Node/Express. This project is part of [The Odin Project](https://github.com/m-ngr/The-Odin-Project)
+## Introduction
 
----
-
-This web application creates an online catalog for a small local library, where users can browse available books and manage their accounts.
+The MDN Local Library is a Node.js/Express web application that serves as an online catalog for a small local library. It allows users to browse/add books. This project is part of [The Odin Project](https://github.com/m-ngr/The-Odin-Project).
 
 ![A UML diagram showing the relation of database entities in this example repository](https://raw.githubusercontent.com/mdn/express-locallibrary-tutorial/main/public/images/Library%20Website%20-%20Mongoose_Express.png)
 
-For more information see the associated [MDN tutorial home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website).
+For a comprehensive guide on how to build this application, please refer to the associated [MDN tutorial home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website).
 
 ## Quick Start
 
-To get this project up and running locally on your computer:
+To set up and run the MDN Local Library project on your local machine, follow these steps:
 
-1. Set up a [Node.js](https://wiki.developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment) development environment.
-2. Once you have node setup install the project in the root of your clone of this repo:
+1. **Node.js Development Environment Setup:**
+   If you haven't already, set up a [Node.js development environment](https://wiki.developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment) on your computer.
+
+2. **Project Installation:**
+   After setting up Node.js, navigate to the root of your clone of this repository and install the required dependencies using npm:
 
    ```bash
    npm install
    ```
-3. Run the server:
+3. **Start the Server:**
+   Run the following command to start the server:
 
    ```bash
    npm run server
    ```
-4. Open a browser to <http://localhost:3000/> to open the library site.
+4. **Access the Local Library Website:**
+   Once the server is up and running, open your web browser and go to <http://localhost:3000/> to access the local library site.
 
-> **Note:** The library uses a default MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). You should use a different database for your own code experiments. Provide the MongoDB URI as an environment variable `mongoDB`.
+> **Note:** The MDN Local Library uses a default MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). If you plan to experiment with your own code, you should use a different database. Provide the MongoDB URI as an environment variable named `mongoDB`.
+
