@@ -1,9 +1,9 @@
 # MDN Local Library
 
 ## Introduction
+Welcome to the MDN Local Library! This Node.js/Express web application serves as an accessible online catalog for a charming local library. With no authentication barriers, visitors can freely explore and contribute by adding books, book instances, genres, and authors to the collection. Moreover, any visitor can easily update the status of a book instance, choosing from options like Maintenance, Available, Loaned, or Reserved. This project is part of [The Odin Project](https://github.com/m-ngr/The-Odin-Project).
 
-The MDN Local Library is a Node.js/Express web application that serves as an online catalog for a small local library. It allows users to browse/add books. This project is part of [The Odin Project](https://github.com/m-ngr/The-Odin-Project).
-
+## Database Design
 ![A UML diagram showing the relation of database entities in this example repository](https://raw.githubusercontent.com/mdn/express-locallibrary-tutorial/main/public/images/Library%20Website%20-%20Mongoose_Express.png)
 
 For a comprehensive guide on how to build this application, please refer to the associated [MDN tutorial home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website).
